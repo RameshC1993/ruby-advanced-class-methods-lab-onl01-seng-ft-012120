@@ -55,7 +55,7 @@ class Song
     name = names[1].split(".")[0].strip
     artist_name = names[0].strip
     
-    song = create_by_name(name)
+    song = self.create_by_name(name)
     song.artist_name = artist_name
     
     return song
