@@ -15,5 +15,11 @@ class Song
     @@all << temp_song
     return temp_song
   end
+  
+  def self.new_by_name(name)
+    temp_song = self.new 
+    temp_song.name = name
+    return temp_song
+  end
 end
 
