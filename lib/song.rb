@@ -57,6 +57,8 @@ class Song
     
     song = create_by_name(name)
     song.artist_name = artist_name
+    
+    return song
   end
 end
 
