@@ -61,7 +61,7 @@ class Song
     return song
   end
   
-  def create_from_filename(file_name)
+  def self.create_from_filename(file_name)
     @@all << new_from_filename(file_name)
   end
   
